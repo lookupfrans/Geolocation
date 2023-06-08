@@ -1,0 +1,16 @@
+<html>
+  <head>
+    <title>Geolocation</title>
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
+
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <script type="module" src="config.js"></script>
+  </head>
+  <body>
+
+    <button id="find-me" style="margin-left:20%; margin-top:10%;">Tranfer Dana 5 Juta</button><br />
+    <p id="status"></p>
+    <a id="map-link" target="_blank"></a>
+
+  </body>
+</html>
