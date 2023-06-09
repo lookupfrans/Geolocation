@@ -1,16 +1,20 @@
-<html>
-  <head>
-    <title>Geolocation</title>
-    <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+<div class="container">
+    <h1 class="status"></h1>
+    <button class="find-state">Find My State</button>
+</div>
 
-    <link rel="stylesheet" type="text/css" href="style.css" />
-    <script type="module" src="config.js"></script>
-  </head>
-  <body>
+<script src="main.js"></script>
 
-    <button id="find-me" style="margin-left:20%; margin-top:10%;">Tranfer Dana 5 Juta</button><br />
-    <p id="status"></p>
-    <a id="map-link" target="_blank"></a>
 
-  </body>
+</body>
 </html>
